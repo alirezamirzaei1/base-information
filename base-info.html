@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/addons-pro/stepper.min.css"/>
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h5 class="card-header info-color white-text text-center py-4">
+            <strong>Sign up</strong>
+        </h5>
+
+        <!--Card content-->
+        <div class="card-body px-lg-5 pt-0">
+
+            <!-- Form -->
+            <form class="text-right" style="color: #757575;" action="#!">
+
+
+                <div class="row">
+                    <div class="col">
+                        <!-- First name -->
+                        <div class="md-form">
+                            <input type="text" id="fname" class="form-control">
+                            <label for="fname">نام</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- Last name -->
+                        <div class="md-form">
+                            <input type="text" id="lname" class="form-control">
+                            <label for="lname">نام خانوادگی</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="md-form mt-0">
+                    <input type="text" id="phone-number" class="form-control">
+                    <label for="phone-number">شماره تفن همراه</label>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <select class="mdb-select" id="gender">
+                            <option value="" disabled selected>جنسیت</option>
+                            <option value="">مرد</option>
+                            <option value="">زن</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <select class="mdb-select" id="job">
+                            <option value="" disabled selected>شغل</option>
+                            <option value="">طلبه</option>
+                            <option value="">دانشجو</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <select class="mdb-select" id="school">
+                            <option value="" disabled selected>مدرسه علمیه</option>
+                            <option value="">مدرسه یک</option>
+                            <option value="">مدرسه دو</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <select class="mdb-select" id="university">
+                            <option value="" disabled selected>دانشگاه</option>
+                            <option value="">دانشگاه صنعتی شریف</option>
+                            <option value="">دانشگاه تهران</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <select class="mdb-select" id="major">
+                            <option value="" disabled selected>رشته</option>
+                            <option value="">مهندسی برق</option>
+                            <option value="">علوم پزشکی</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <select class="mdb-select" id="association">
+                            <option value="" disabled selected>نام تشکل</option>
+                            <option value="">تشکل یک</option>
+                            <option value="">تشکل دو</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <select class="mdb-select" id="degree">
+                            <option value="" disabled selected>مقطع</option>
+                            <option value="">لیسانس</option>
+                            <option value="">فوق لیسانس</option>
+                            <option value="">دکترا</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6">
+                        <select class="mdb-select" id="year-of-entrance">
+                            <option value="" disabled selected>سال ورودی</option>
+                            <option value="">۱۳۹۸</option>
+                            <option value="">۱۳۹۷</option>
+                            <option value="">۱۳۹۶</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <select class="mdb-select" id="province">
+                            <option value="" disabled selected>استان</option>
+                            <option value="">تهران</option>
+                            <option value="">اصفهان</option>
+                            <option value="">خراسان رضوی</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <select class="mdb-select" id="cities">
+                            <option value="" disabled selected>شهر</option>
+                            <option value="">تهران</option>
+                            <option value="">اصفهان</option>
+                            <option value="">مشهد</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <select class="mdb-select" id="religious">
+                            <option value="" disabled selected>مذهب</option>
+                            <option value="">شیعه</option>
+                            <option value="">سنی</option>
+                        </select>
+                    </div>
+                </div>
+
+                
+
+                <!-- Sign up button -->
+                <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">
+                    ثبت نام
+                </button>
+            </form>
+            <!-- Form -->
+
+        </div>
+
+    </div>
+</div>
+
+<!-- jQuery -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/jquery.steps.js"></script>
+<script type="text/javascript" src="src/js/pro/material-select/material-select.js"></script>
+<script type="text/javascript" src="src/js/pro/material-select/material-select-view.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Your custom scripts (optional) -->
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>

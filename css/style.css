@@ -1,0 +1,16 @@
+.card-body {
+    direction: rtl;
+}
+
+.card .md-form label {
+    left: unset;
+}
+
+textarea {
+    resize: none;
+}
+
+.caret {
+    text-align: left;
+    left: 0;
+}
